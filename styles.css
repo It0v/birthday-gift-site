@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-date {
+    margin-top: 10px;
+    background: #EFB0C9;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 20px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-size: 400px 500px;
+    background-repeat: no-repeat;
+    background-image: url("https://media.giphy.com/media/pv92vgg1AgRPkMADQm/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-size: 450px 400px;
+    background-repeat: no-repeat;
+    background-image: url("https://media.giphy.com/media/LpdlqTkgO2Lwwixwv7/giphy.gif");
+}
+
+#gift-img-quote:hover {
+    background-size: 450px 400px;
+    background-repeat: no-repeat;
+    background-image: url("https://media.giphy.com/media/uNvXBlop4OLwhkPQUS/giphy.gif");
+}
+
+#gift-img-chad:hover {
+    background-size: 450px 400px;
+    background-repeat: no-repeat;
+    background-image: url("https://media.giphy.com/media/CAYVZA5NRb529kKQUc/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/8MSlz6noGLTYdn5MF8/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
